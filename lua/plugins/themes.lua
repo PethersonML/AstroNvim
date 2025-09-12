@@ -75,7 +75,8 @@ return {
     end
   },
   { 'marko-cerovac/material.nvim', },
-  { "Mofiqul/dracula.nvim", },
+  -- { "Mofiqul/dracula.nvim", },
+  { "maxmx03/dracula.nvim", },
   { "Mofiqul/vscode.nvim", },
   { "rakr/vim-one", },
   { "EdenEast/nightfox.nvim" }
