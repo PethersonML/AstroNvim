@@ -14,7 +14,7 @@ return {
     -- colorscheme = "kanagawa-dragon",
     -- colorscheme = "onedark",
     -- colorscheme = "material",
-    -- colorscheme = "dracula",
+    colorscheme = "dracula",
     -- colorscheme = "tokyonight-night",
     -- colorscheme = "vscode",
     -- colorscheme = "nordic",
@@ -22,7 +22,7 @@ return {
     -- colorscheme = "techbase",
     -- colorscheme = "sonokai",
     -- colorscheme = "one",
-    colorscheme = "carbonfox",
+    -- colorscheme = "carbonfox",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes

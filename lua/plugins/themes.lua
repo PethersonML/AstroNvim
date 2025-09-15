@@ -75,9 +75,18 @@ return {
     end
   },
   { 'marko-cerovac/material.nvim', },
-  -- { "Mofiqul/dracula.nvim", },
-  { "maxmx03/dracula.nvim", },
+  { 
+    "Mofiqul/dracula.nvim",
+    config = function()
+      require('dracula').setup {
+        transparent_bg = true,
+        italic_comment = true,
+      }
+    end,
+  },
+  -- { "maxmx03/dracula.nvim", },
   { "Mofiqul/vscode.nvim", },
   { "rakr/vim-one", },
-  { "EdenEast/nightfox.nvim" }
+  { "EdenEast/nightfox.nvim" },
+  -- { "dracula/vim" },
 }
