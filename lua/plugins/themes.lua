@@ -50,9 +50,9 @@ return {
     -- opts = {},
   },
   {
-    'AlexvZyl/nordic.nvim',  
-    lazy = false,  
-    priority = 1000,  
+    'AlexvZyl/nordic.nvim',
+    lazy = false,
+    priority = 1000,
   },
   {
     "vague2k/vague.nvim",
@@ -75,7 +75,7 @@ return {
     end
   },
   { 'marko-cerovac/material.nvim', },
-  { 
+  {
     "Mofiqul/dracula.nvim",
     config = function()
       require('dracula').setup {
@@ -83,6 +83,15 @@ return {
         italic_comment = true,
       }
     end,
+  },
+  {
+    "AstroNvim/astrotheme",
+    opts = {
+      style = {
+        transparent = true,
+        inactive = false,
+      }
+    }
   },
   -- { "maxmx03/dracula.nvim", },
   { "Mofiqul/vscode.nvim", },
